@@ -1,5 +1,9 @@
+---
 name: youtube-creator
 description: Skill for creating and managing YouTube video projects. Use this skill to duplicate a YouTube video template, initiate a new video project, and edit the script within the template.
+metadata:
+  content-source: https://github.com/sphinx-themes/sphinx-themes.org
+  content-source-license: BSD-2-Clause (https://opensource.org/licenses/BSD-2-Clause)
 ---
 
 # YouTube Video Creator Skill
