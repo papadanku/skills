@@ -1,6 +1,8 @@
 ---
 name: restructuredtext-writer
 description: A comprehensive multi-tool for reStructuredText (RST) and Sphinx documentation. This skill provides expert guidance for processing RST files, building and managing Sphinx projects, handling various output formats, extending functionality, and ensuring high-quality, accurate, and up-to-date documentation.
+metadata:
+    source1: https://github.com/sphinx-themes/sphinx-themes.org
 ---
 
 # reStructuredText Writer
