@@ -24,7 +24,7 @@ node scripts/summarize.cjs --unstaged
 ### 3. Manual Headless Pipe
 You can also manually pipe a git diff to `gemini` in headless mode:
 ```bash
-git diff --cached | gemini --headless -p "Summarize these changes as a commit message"
+git diff --cached | gemini -p "Summarize these changes as a commit message"
 ```
 
 ## Reference Materials

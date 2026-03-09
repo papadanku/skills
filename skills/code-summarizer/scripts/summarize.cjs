@@ -40,7 +40,7 @@ function main() {
   
   // Use gemini in headless mode to generate the summary
   try {
-    const geminiCmd = `gemini --headless -p "${prompt}"`;
+    const geminiCmd = `gemini -p "${prompt}"`;
     const result = execSync(geminiCmd, { input: diff, encoding: 'utf-8' });
     console.log(result.trim());
   } catch (err) {
