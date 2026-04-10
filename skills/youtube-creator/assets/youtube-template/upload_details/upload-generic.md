@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 0:00 · Event 1
 1:00 · Event 2
 
-*Links*
+*Relevant Links*
 • Link 1 Name: Link
 • Link 2 Name: Link
 
@@ -28,6 +28,9 @@ Product description...
 *Audio Sources*
 • Recording Name (Author Name): Link
 • Song Name (Author Name): Link
+
+*Image Sources*
+• Image Name: Link
 
 *Video Sources*
 • Channel Name: Link

@@ -15,6 +15,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 0:00 · Event 1
 1:00 · Event 2
 
+*Relevant Links*
+• Link 1 Name: Link
+• Link 2 Name: Link
+
 *Project Reality*
 Website: https://www.realitymod.com
 Download: https://www.realitymod.com/downloads
@@ -28,6 +32,9 @@ Project Reality is a combined arms tactical first-person shooter video game modi
 *Audio Sources*
 • Recording Name (Author Name): Link
 • Song Name (Author Name): Link
+
+*Image Sources*
+• Image Name: Link
 
 *Video Sources*
 • Channel Name: Link

@@ -18,9 +18,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 • Website: https://papadanku.github.io/CShade/
 • Source Code: https://github.com/papadanku/CShade
 
+*Relevant Links*
+• Link 1 Name: Link
+• Link 2 Name: Link
+
 *Audio Sources*
 • Recording Name (Author Name): Link
 • Song Name (Author Name): Link
+
+*Image Sources*
+• Image Name: Link
 
 *Video Sources*
 • Channel Name: Link
