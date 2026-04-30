@@ -4,35 +4,45 @@ This repository contains a collection of specialized skills designed to extend t
 
 ## Available Skills
 
-- **psychologist-writer**: Assists in generating psychological assessments and reports.
-- **reshadefx-coder**: Provides assistance with ReShadeFX shader development.
-- **restructuredtext-writer**: Helps in writing and formatting documentation using reStructuredText.
-- **youtube-creator**: Facilitates the creation of YouTube video content, including scripts and assets.
+- **reshadefx-coder**: Expert ReShadeFX (HLSL) assistant for finding bugs, generating shader code, and suggesting optimized revisions.
+- **restructuredtext-writer**: Multi-tool for reStructuredText (RST) and Sphinx documentation management and generation.
+- **youtube-creator**: Facilitates the creation and management of YouTube video projects, including scripts and assets.
+
+## Available Agents
+
+- **git-diff-summarizer**: Summarizes staged changes concisely using the Conventional Commits format.
 
 ## Installation
 
-Install these skills by placing the `skills` folder in your AI CLI's search path.
+- Install these skills by placing the `skills` folder in your AI CLI's search path.
+- Install these agents by placing the `agents` folder in your AI CLI's search path.
 
 ### Gemini CLI
 
-Gemini CLI looks for `SKILL.md` files in the following locations:
+Gemini CLI looks for `SKILL.md` and subagent files in the following locations:
 
-- **Global**: `~/.gemini/skills/`
-- **Project**: `./.agents/skills/`
+- **Global (Skills)**: `~/.gemini/skills/`
+- **Project (Skills)**: `./.agents/skills/`
+- **Global (Subagents)**: `~/.gemini/agents/`
+- **Project (Subagents)**: `./.agents/agents/`
 
 ### Claude Code
 
-Claude Code discovers skills in these folders:
+Claude Code discovers skills and subagent files in these folders:
 
-- **Global**: `~/.claude/skills/`
-- **Project**: `./.claude/skills/`
+- **Global (Skills)**: `~/.claude/skills/`
+- **Project (Skills)**: `./.claude/skills/`
+- **Global (Subagents)**: `~/.claude/agents/`
+- **Project (Subagents)**: `./.claude/agents/`
 
 ### Mistral Vibe
 
-Mistral Vibe searches for skills in these locations:
+Mistral Vibe searches for skills and subagent files in these locations:
 
-- **Global**: `~/.vibe/skills/`
-- **Project**: `./.vibe/skills/`
+- **Global (Skills)**: `~/.vibe/skills/`
+- **Project (Skills)**: `./.vibe/skills/`
+- **Global (Subagents)**: `~/.vibe/agents/`
+- **Project (Subagents)**: `./.vibe/agents/`
 
 ### How to Install
 
