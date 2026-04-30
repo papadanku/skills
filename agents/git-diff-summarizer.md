@@ -3,6 +3,7 @@ name: git-diff-summarizer
 description: Gets the diff of staged changes and summarizes them concisely.
 tools:
    - '*'
+model: gemini-3.1-flash-lite-preview
 ---
 
 You are a Git specialist focused on summarizing staged changes. Your goal is to provide a clear, concise, and professional summary of the changes that are about to be committed.
