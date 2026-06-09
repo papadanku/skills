@@ -20,7 +20,20 @@ This repository contains a collection of specialized skills designed to extend t
 - Install these skills by placing the `skills` folder in your AI CLI's global or workspace-specific search path.
 - Install these agents by placing the `agents` folder in your AI CLI's global or workspace-specific search path.
 
-### Antigravity
+### Claude Code
+
+> https://claude.com/product/claude-code
+
+*Claude Code* looks for `SKILL.md` and subagent files in the following locations:
+
+- **Global (All Workspaces)**
+    - Skills: `~/.claude/skills/`
+    - Subagents: `~/.claude/agents/`
+- **Workspace-Specific**
+    - Skills: `./.claude/skills/`
+    - Subagents: `./.claude/agents/`
+
+### Google Antigravity
 
 > https://antigravity.google/
 
@@ -31,19 +44,6 @@ This repository contains a collection of specialized skills designed to extend t
 - **Workspace-Specific**
     - Skills: `<workspace-root>/.agents/skills/<skill-folder>/`
 
-### Claude Code
-
-> https://claude.com/product/claude-code
-
-*Claude Code* looks for `SKILL.md` and subagent files in the following locations:
-
-- **Global (All Workspaces)**
-    - Skills: `./.claude/skills/`
-    - Subagents: `./.claude/agents/`
-- **Workspace-Specific**
-    - Skills: `~/.claude/skills/`
-    - Subagents: `~/.claude/agents/`
-
 ### opencode
 
 > https://opencode.ai/
@@ -51,11 +51,11 @@ This repository contains a collection of specialized skills designed to extend t
 *opencode* looks for `SKILL.md` and subagent files in the following locations:
 
 - **Global (All Workspaces)**
-    - Skills: `.opencode/skills/<name>/SKILL.md`
-    - Subagents: `.opencode/agents/`
-- **Workspace-Specific**
     - Skills: `~/.config/opencode/skills/<name>/SKILL.md`
     - Subagents: `~/.config/opencode/agents/`
+- **Workspace-Specific**
+    - Skills: `.opencode/skills/<name>/SKILL.md`
+    - Subagents: `.opencode/agents/`
 
 ### Mistral Vibe
 
@@ -64,8 +64,8 @@ This repository contains a collection of specialized skills designed to extend t
 Mistral Vibe looks for `SKILL.md` and subagent files in the following locations:
 
 - **Global (All Workspaces)**
-    - Skills: `~/.vibe/agents/`
-    - Subagents: `./.vibe/agents/`
-- **Workspace-Specific**
     - Skills: `~/.vibe/skills/`
-    - Subagents: `./.vibe/skills/`
+    - Subagents: `~/.vibe/agents/`
+- **Workspace-Specific**
+    - Skills: `./.vibe/skills/`
+    - Subagents: `./.vibe/agents/`
