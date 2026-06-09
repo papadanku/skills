@@ -4,6 +4,9 @@ This repository contains a collection of specialized skills designed to extend t
 
 ## Available Skills
 
+- **prbf2-cs-coder**: Assistant for finding bugs, generating, and optimizing CS-Script (.csx) build scripts in Project Reality BF2.
+- **prbf2-python-coder**: Assistant for debugging, generating, and optimizing Python 2.7.18 game logic for Project Reality: BF2.
+- **prbf2-shader-coder**: Expert HLSL assistant for finding bugs, generating, and optimizing shaders for RealityShaders in Project Reality: BF2.
 - **reshadefx-coder**: Expert ReShadeFX (HLSL) assistant for finding bugs, generating shader code, and suggesting optimized revisions.
 - **restructuredtext-writer**: Multi-tool for reStructuredText (RST) and Sphinx documentation management and generation.
 - **youtube-creator**: Facilitates the creation and management of YouTube video projects, including scripts and assets.
