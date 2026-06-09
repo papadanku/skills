@@ -17,36 +17,55 @@ This repository contains a collection of specialized skills designed to extend t
 
 ## Installation
 
-- Install these skills by placing the `skills` folder in your AI CLI's search path.
-- Install these agents by placing the `agents` folder in your AI CLI's search path.
+- Install these skills by placing the `skills` folder in your AI CLI's global or workspace-specific search path.
+- Install these agents by placing the `agents` folder in your AI CLI's global or workspace-specific search path.
 
-### Gemini CLI
+### Antigravity
 
-Gemini CLI looks for `SKILL.md` and subagent files in the following locations:
+> https://antigravity.google/
 
-- **Global (Skills)**: `~/.gemini/skills/`
-- **Project (Skills)**: `./.agents/skills/`
-- **Global (Subagents)**: `~/.gemini/agents/`
-- **Project (Subagents)**: `./.agents/agents/`
+*Google Antigravity* looks for `SKILL.md` and subagent files in the following locations:
+
+- **Global (All Workspaces)**
+    - Skills: `~/.gemini/config/skills/<skill-folder>/`
+- **Workspace-Specific**
+    - Skills: `<workspace-root>/.agents/skills/<skill-folder>/`
 
 ### Claude Code
 
-Claude Code discovers skills and subagent files in these folders:
+> https://claude.com/product/claude-code
 
-- **Global (Skills)**: `~/.claude/skills/`
-- **Project (Skills)**: `./.claude/skills/`
-- **Global (Subagents)**: `~/.claude/agents/`
-- **Project (Subagents)**: `./.claude/agents/`
+*Claude Code* looks for `SKILL.md` and subagent files in the following locations:
+
+- **Global (All Workspaces)**
+    - Skills: `./.claude/skills/`
+    - Subagents: `./.claude/agents/`
+- **Workspace-Specific**
+    - Skills: `~/.claude/skills/`
+    - Subagents: `~/.claude/agents/`
+
+### opencode
+
+> https://opencode.ai/
+
+*opencode* looks for `SKILL.md` and subagent files in the following locations:
+
+- **Global (All Workspaces)**
+    - Skills: `.opencode/skills/<name>/SKILL.md`
+    - Subagents: `.opencode/agents/`
+- **Workspace-Specific**
+    - Skills: `~/.config/opencode/skills/<name>/SKILL.md`
+    - Subagents: `~/.config/opencode/agents/`
 
 ### Mistral Vibe
 
-Mistral Vibe searches for skills and subagent files in these locations:
+> https://mistral.ai/products/vibe/
 
-- **Global (Skills)**: `~/.vibe/skills/`
-- **Project (Skills)**: `./.vibe/skills/`
-- **Global (Subagents)**: `~/.vibe/agents/`
-- **Project (Subagents)**: `./.vibe/agents/`
+Mistral Vibe looks for `SKILL.md` and subagent files in the following locations:
 
-### How to Install
-
-To install a skill, copy its specific folder (e.g., `skills/python-coder`) into the appropriate directory for your CLI. For project-specific use, symlinking the `skills/` directory to your project's root is the recommended approach.
+- **Global (All Workspaces)**
+    - Skills: `~/.vibe/agents/`
+    - Subagents: `./.vibe/agents/`
+- **Workspace-Specific**
+    - Skills: `~/.vibe/skills/`
+    - Subagents: `./.vibe/skills/`
